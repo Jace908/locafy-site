@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Locafy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Locafy</h1>
+    <p>AI tools to help local businesses grow smarter and faster.</p>
+    <a href="#" class="btn">Coming Soon</a>
+  </div>
+</body>
+</html>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #38bdf8;
+}
+
+p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #cbd5e1;
+}
+
+.btn {
+  background-color: #38bdf8;
+  padding: 10px 20px;
+  color: #0f172a;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0ea5e9;
+}
